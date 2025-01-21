@@ -1,0 +1,86 @@
+import Kicks from "../assets/projects/pulsefit.png"
+import tour from "../assets/projects/Tourism.jpg"
+import olxClone from "../assets/projects/spotifyClone.png"
+import food from "../assets/projects/food.png"
+import TodoList from "../assets/projects/Todoapp.jpg"
+import airport from "../assets/projects/airport.png"
+// import cred from "../assets/projects/credHtml.png"
+
+export const DISCRIPTION_CONTENT = `As a B.Tech Graduate in Computer Science & Engineering ,I am eager to put my education and technical
+skills to use in a dynamic and inventive setting.I am delighted to embark on a path to apply my skills to real
+world situations, having a good foundation in programming algorithms, and problem solving. My academic
+achievements, paired with my curiosity and determination, make me an invaluable member of any team.
+.
+`;
+
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+
+export const EDUCATION = {
+    degree:"B.Tech",
+    department:'Computer Science and Engineering',
+    institution:'NSS College Of Engineering,Palakkad',
+    year:'2021-2024'
+}
+
+export const PROJECTS = [
+  {
+    title: "Pulse Fit",
+    image: Kicks,
+    description:
+      " Fitness project to assist users in tracking and enhancing their fitness journey.Implemented fourlevels of workout plans: Beginner, Intermediate, Advanced, and Lose Fat.",
+    technologies: ["Mongodb", "Express.js","React","Node.js","Bootstrap"],
+    github:'https://github.com/nidhun-vp'
+  },
+  {
+    title: "airport website",
+    image: airport,
+    description:
+      " This project involves the creation of a fully responsive and interactive airport website using front-end web technologies:HTML, CSS, Bootstrap, and JavaScript.",
+      //
+    technologies: ["HTML", "CSS","Bootstrap","JavaScript"],
+    github:'https://github.com/Nidhun-vp/airport_website'
+  },
+  {
+    title: "Tourism-site website",
+    image: tour,
+    description:
+      " This project involves the creation of a fully responsive and interactive Tourism website using front-end web technologies:React,Mongodb,Express.js, CSS and Bootstrap",
+      //
+    technologies: ["HTML", "CSS","Bootstrap","Mongodb","React","Express.js","Node.js"],
+    github:'https://github.com/Nidhun-vp/tourism'
+  },
+ 
+  {
+    title: "spotify-clone",
+    image: olxClone,
+    description:
+      "This project is a clone of the Spotify platform, built to provide similar functionality for users to list and browse items for sale. It features user authentication to ensure secure access and allows users to lisen and view Music using awesome interface.",
+    technologies: ["Font-awesome","HTML","CSS",'Javascript',],
+    github:'https://github.com/Nidhun-vp/Spotify_clone'
+  },
+  {
+    title: "food-app",
+    image: food,
+    description:
+      "A platform for order and delivery food items",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    github:'https://github.com/Nidhun-vp/Food_order'
+  },
+  
+  {
+    title: "To-Do App",
+    image: TodoList,
+    description:
+      "Built a To-Do List application with interactive features for managing tasks. This project aimed at gaining practical understanding of JavaScript and enhancing skills in front-end development.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    github:'https://github.com/Nidhun-vp/TODO_APP'
+  }
+  
+  
+];
+
+export const CONTACT = {
+  address: "Malappuram, Kerala",
+  phoneNo: "+91 9207284780 ",
+  email: "nidhunnidhu714@gmail.com",
+};
