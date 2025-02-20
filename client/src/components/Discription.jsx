@@ -1,7 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import profile from '../assets/image/profile.jpg';
+
 import { DISCRIPTION_CONTENT  } from '../constants';
+
+const profile = "https://res.cloudinary.com/duyhgge54/image/upload/v1700000000/profile_s2vzuy";
+
 
 const containerVarients={
   hidden:{opacity:0 ,x:-100},
