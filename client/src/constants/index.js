@@ -4,7 +4,7 @@ const olxClone = "https://res.cloudinary.com/duyhgge54/image/upload/v1700000000/
 const food = "https://res.cloudinary.com/duyhgge54/image/upload/v1700000000/food_nmrt0x";
 const TodoList = "https://res.cloudinary.com/duyhgge54/image/upload/v1700000000/todoapp_hikg39";
 const airport = "https://res.cloudinary.com/duyhgge54/image/upload/v1700000000/airport_u47oxb";
-const Job= "https://res.cloudinary.com/duyhgge54/image/upload/v1749795747/job-board_nuatwf.jpg"
+const Job= "https://res.cloudinary.com/duyhgge54/image/upload/v1749795747/job-board_nuatwf"
 
 
 
