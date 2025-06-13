@@ -47,6 +47,14 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Bootstrap", "Mongodb", "React", "Express.js", "Node.js"],
     github: "https://github.com/Nidhun-vp/tourism",
   },
+     {
+    title: "Job-board",
+    image: JobBoard,
+    description:
+      "Built a full-stack Job Board application using the MERN stack, designed to connect job seekers with opportunities across various industries",
+    technologies: ["Font-awesome","react","Bootstrap5","mdb","mongodb atlas",'Javascript',],
+    github:'https://github.com/Nidhun-vp/personal-job-site'
+  },
   {
     title: "spotify-clone",
     image: olxClone,  
