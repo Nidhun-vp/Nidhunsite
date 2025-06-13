@@ -51,7 +51,7 @@ export const PROJECTS = [
   },
      {
     title: "Job-board",
-    image: JobBoard,
+    image: Job,
     description:
       "Built a full-stack Job Board application using the MERN stack, designed to connect job seekers with opportunities across various industries",
     technologies: ["Font-awesome","react","Bootstrap5","mdb","mongodb atlas",'Javascript',],
