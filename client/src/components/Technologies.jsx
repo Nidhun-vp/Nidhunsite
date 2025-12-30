@@ -2,7 +2,7 @@ import React from 'react';
 import { DiMysql } from 'react-icons/di';
 import { FaNodeJs } from 'react-icons/fa';
 import { RiReactjsLine } from 'react-icons/ri';
-import { SiExpress, SiJavascript, SiMongodb, SiBootstrap } from 'react-icons/si';
+import { SiExpress, SiJavascript, SiMongodb, SiBootstrap,SiTailwindcss } from 'react-icons/si';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { DiCss3 } from 'react-icons/di';
 import { motion } from 'framer-motion';
