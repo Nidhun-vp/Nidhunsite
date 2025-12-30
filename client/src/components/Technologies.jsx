@@ -115,7 +115,7 @@ const Technologies = () => {
           variants={iconVariants(4)}
           className="p-4"
         >
-         
+         <SiTailwindcss className="text-7xl text-blue-400" />
         </motion.div>
       </motion.div>
     </div>
