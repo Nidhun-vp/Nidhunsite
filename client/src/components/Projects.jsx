@@ -35,19 +35,37 @@ const Projects = () => {
                 <span className='mr-2 rounded bg-stone-900 p-2 text-sm
                 font-medium text-stone-300' key={index}>{tech}</span>
               ))}
-              {project.github &&(
-                <div className='mt-8'>
-                  <a
-                  href={project.github}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='bg-white rounded-full p-4 text-sm
-                           text-stone-800 mb-10 no-underline'
-                  >
-                 gitHub
-                  </a>
-                </div>
-              )}
+             <div className="flex items-center gap-4 mt-4">
+                    {project.github && (
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center justify-center
+                                  rounded-full bg-white px-6 py-2 text-sm
+                                  font-medium text-stone-800
+                                  hover:bg-stone-200 transition"
+                      >
+                        GitHub
+                      </a>
+                    )}
+
+                    {project.live && (
+                      <a
+                        href={project.live}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center justify-center
+                                  rounded-full bg-green-500 px-6 py-2 text-sm
+                                  font-medium text-white
+                                  hover:bg-red-600 transition"
+                      >
+                        Live
+                      </a>
+                    )}
+                  </div>
+
+             
               </motion.div>
               
             </div>
