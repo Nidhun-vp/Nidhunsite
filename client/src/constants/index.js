@@ -4,8 +4,6 @@ const olxClone = "https://res.cloudinary.com/duyhgge54/image/upload/v1700000000/
 const food = "https://res.cloudinary.com/duyhgge54/image/upload/v1700000000/food_nmrt0x";
 const TodoList = "https://res.cloudinary.com/duyhgge54/image/upload/v1700000000/todoapp_hikg39";
 const airport = "https://res.cloudinary.com/duyhgge54/image/upload/v1700000000/airport_u47oxb";
-const Job= "https://res.cloudinary.com/duyhgge54/image/upload/v1749795747/job-board_nuatwf";
-
 
 
 export const DISCRIPTION_CONTENT = `As a B.Tech Graduate in Computer Science & Engineering ,I am eager to put my education and technical
@@ -32,6 +30,8 @@ export const PROJECTS = [
       "Fitness project to assist users in tracking and enhancing their fitness journey. Implemented four levels of workout plans: Beginner, Intermediate, Advanced, and Lose Fat.",
     technologies: ["Mongodb", "Express.js", "React", "Node.js", "Bootstrap"],
     github: "https://github.com/nidhun-vp",
+    live: "https://pulsefit-2-0.vercel.app/",
+    
   },
   {
     title: "aero-site",
@@ -49,15 +49,6 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Bootstrap", "Mongodb", "React", "Express.js", "Node.js"],
     github: "https://github.com/Nidhun-vp/tourism",
   },
-     {
-    title: "Job-board",
-    image: Job,
-    description:
-      "Built a full-stack Job Board application using the MERN stack, designed to connect job seekers with opportunities across various industries",
-    technologies: ["Font-awesome","react","Bootstrap5","mdb","mongodb atlas",'Javascript',],
-    github:'https://github.com/Nidhun-vp/personal-job-site'
-  },
-    
   {
     title: "spotify-clone",
     image: olxClone,  
