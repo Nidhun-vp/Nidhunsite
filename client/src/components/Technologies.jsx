@@ -2,7 +2,8 @@ import React from 'react';
 import { DiMysql } from 'react-icons/di';
 import { FaNodeJs } from 'react-icons/fa';
 import { RiReactjsLine } from 'react-icons/ri';
-import { SiExpress, SiJavascript, SiMongodb, SiBootstrap,SiTailwindcss,SiPostman} from 'react-icons/si';
+import { SiExpress, SiJavascript, SiMongodb, SiBootstrap, SiTailwindcss} from 'react-icons/si';
+import { SiPostman} from 'react-icons/si';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { DiCss3 } from 'react-icons/di';
 import { motion } from 'framer-motion';
@@ -114,10 +115,10 @@ const Technologies = () => {
           animate="animate"
           variants={iconVariants(4)}
           className="p-4"
+          
         >
          <SiTailwindcss className="text-7xl text-blue-400" />
         </motion.div>
-        
         <motion.div
         initial="initial"
         animate="animate"
@@ -126,6 +127,9 @@ const Technologies = () => {
       >
         <SiPostman className="text-7xl text-orange-500" />
       </motion.div>
+      
+
+        
       </motion.div>
     </div>
   );
