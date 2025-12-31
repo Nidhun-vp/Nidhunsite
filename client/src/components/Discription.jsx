@@ -59,8 +59,21 @@ const Discription = () => {
             >
               MERN Stack Developer
             </motion.span>
-            <motion.p  variants={childVariants} className='my-2 max-w-lg py-6 text-xl leading-relaxed
-            tracking-tighter'>
+            <motion.p  variants={childVariants} 
+              className="
+                my-2 max-w-xl py-6
+                text-base
+                md:text-lg
+                lg:text-xl
+                xl:text-[22px]
+                leading-relaxed
+                lg:leading-8
+                tracking-normal
+                text-justify
+                text-stone-400
+                font-sans
+                  "
+              >
                 {DISCRIPTION_CONTENT }
             </motion.p>
             <motion.a 
