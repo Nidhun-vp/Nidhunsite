@@ -117,7 +117,7 @@ const Technologies = () => {
         >
          <SiTailwindcss className="text-7xl text-blue-400" />
         </motion.div>
-        </motion.div>
+        
         <motion.div
         initial="initial"
         animate="animate"
