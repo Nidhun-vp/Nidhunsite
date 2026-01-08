@@ -23,9 +23,9 @@ export const EDUCATION = {
 }
 
 export const PROJECTS = [
-  {
+ {
     title: "Pulse Fit",
-    image: Kicks,  // Now using Cloudinary URL
+    image: "https://res.cloudinary.com/duyhgge54/image/upload/v1767858711/fit-img1_zuoyzc.png",  // Now using Cloudinary URL
     description:
       "Fitness project to assist users in tracking and enhancing their fitness journey. Implemented four levels of workout plans: Beginner, Intermediate, Advanced, and Lose Fat.",
     technologies: ["Mongodb", "Express.js", "React", "Node.js", "Bootstrap"],
@@ -42,12 +42,41 @@ export const PROJECTS = [
     github: "https://github.com/Nidhun-vp/airport_website",
   },
   {
+    title: "Job-board",
+    image: "https://res.cloudinary.com/duyhgge54/image/upload/v1749795747/job-board_nuatwf.jpg",  
+    description:
+      "Job project to assist users to find and post jobs",
+    technologies: ["Mongodb-Atlas", "Express.js", "React", "Node.js", "Bootstrap"],
+    github: "https://github.com/Nidhun-vp/Job-board-mern",
+    live: "https://job-board-mern-front.vercel.app/",
+    
+  },
+  {
     title: "Tourism-website",
     image: tour,  
     description:
       "This project involves the creation of a fully responsive and interactive Tourism website using front-end web technologies: React, Mongodb, Express.js, CSS, and Bootstrap",
     technologies: ["HTML", "CSS", "Bootstrap", "Mongodb", "React", "Express.js", "Node.js"],
     github: "https://github.com/Nidhun-vp/tourism",
+  },
+  {
+    title: "chat-app",
+    image: "https://res.cloudinary.com/duyhgge54/image/upload/v1767858268/chat_app_a8xvhb.png",  // Now using Cloudinary URL
+    description:
+      "Real-time chat system using socket.io",
+    technologies: ["react", "Express.js", "Node.js", "Socket.io"],
+    github: "https://github.com/Nidhun-vp/awesome-chat-front",
+    
+  },
+  {
+    title: "Shopping-page-Ecommerce",
+    image: "https://res.cloudinary.com/duyhgge54/image/upload/v1767858874/shopping_bvr73g.png",  
+    description:
+      "E-commerce page for purchase products",
+    technologies: ["react", "Express.js", "Node.js", "Socket.io"],
+    github: "https://github.com/Nidhun-vp/Shopping-page",
+   
+    
   },
   {
     title: "spotify-clone",
