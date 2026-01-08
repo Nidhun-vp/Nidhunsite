@@ -57,7 +57,7 @@ export const PROJECTS = [
     description:
       "This project involves the creation of a fully responsive and interactive Tourism website using front-end web technologies: React, Mongodb, Express.js, CSS, and Bootstrap",
     technologies: ["HTML", "CSS", "Bootstrap", "Mongodb", "React", "Express.js", "Node.js"],
-    github: "https://github.com/Nidhun-vp/tourism",
+    github: "https://github.com/Nidhun-vp/tourism/tree/master/travel-site",
   },
   {
     title: "chat-app",
