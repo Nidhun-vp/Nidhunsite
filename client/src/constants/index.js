@@ -19,7 +19,7 @@ export const EDUCATION = {
     degree:"B.Tech",
     department:'Computer Science and Engineering',
     institution:'NSS College Of Engineering,Palakkad',
-    year:'2021-2024'
+    year:'2020-2024'
 }
 
 export const PROJECTS = [
