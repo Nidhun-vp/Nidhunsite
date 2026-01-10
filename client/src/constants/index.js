@@ -46,7 +46,7 @@ export const PROJECTS = [
     image: "https://res.cloudinary.com/duyhgge54/image/upload/v1749795747/job-board_nuatwf.jpg",  
     description:
       "Job project to assist users to find and post jobs",
-    technologies: ["Mongodb-Atlas", "Express.js", "React", "Node.js", "Bootstrap"],
+    technologies: ["Mgdb-Atlas", "Express.js", "React", "Node.js", "Bootstrap"],
     github: "https://github.com/Nidhun-vp/Job-board-mern",
     live: "https://job-board-mern-front.vercel.app/",
     
